@@ -1,0 +1,44 @@
+{
+	"name": "web.test.IDM",
+	"description": "web apps functional test Automation suite",
+	"version": "1.0.0",
+	"private": true,
+	"author": "Sanjay Mundu <mundu.s@hcl.com>, Neha Prasad <neha.prasad@hcl.com>",
+	"license": "LICENSED to DB from HCL",
+	"scripts": {
+		"pretest": "rimraf ./logs/data & rimraf allure-results",
+		"test": "protractor conf.js & allure generate allure-results --clean -o allure-report || true",
+		"posttest": "log-to-json ./logs/data/HTMLLog.log -o ./logs/data/HTMLLog.log.json"
+	},
+	"dependencies": {
+		"accounting": "0.4.1",
+		"circular-json": "^0.5.9",
+		"exceljs": "^4.2.0",
+		"html-table-to-json": "0.4.0",
+		"jasmine": "^3.2.1",
+		"jasmine-allure-reporter": "^1.0.2",
+		"log-to-json": "^1.0.0",
+		"log-to-json-cli": "^1.0.0",
+		"log4js": "^6.2.1",
+		"log4js-protractor-appender": "^1.1.2",
+		"mssql": "^5.1.0",
+		"npm": "^7.5.2",
+		"path": "0.12.7",
+		"pg": "^8.5.1",
+		"properties-reader": "^2.0.0",
+		"protractor": "^7.0.0",
+		"randomatic": "^3.1.1",
+		"request": "2.88.0",
+		"say": "^0.16.0",
+		"table-to-json": "0.13.0",
+		"xlsx": "^0.14.3"
+	},
+	"devDependencies": {
+		"allure-commandline": "^2.9.0",
+		"protractor-beautiful-reporter": "^1.3.6",
+		"protractor-jasmine2-html-reporter": "0.0.7",
+		"typescript": "^3.0.1",
+		"@types/copyfiles": "^2.4.0",
+		"copyfiles": "^2.4.1"
+	}
+}

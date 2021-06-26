@@ -1,0 +1,102 @@
+{"TIME":"2021-04-14T13:39:55.093", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": " EXECUTION OF TEST SUITE FOR CLONE "}
+{"TIME":"2021-04-14T13:39:55.103", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": " EXECUTION OF TEST SUITE FOR CLONE "}
+{"TIME":"2021-04-14T13:39:55.286", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Prerequisite 1: Navigate to IDM URL Successfully."}
+{"TIME":"2021-04-14T13:39:55.287", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Prerequisite 2: Login using Valid Credentials Successfully."}
+{"TIME":"2021-04-14T13:39:55.287", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Prerequisite 3: Navigate to CRE Profile Successfully."}
+{"TIME":"2021-04-14T13:39:55.288", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Prerequisite 4: Navigate to Clone Profile Successfully."}
+{"TIME":"2021-04-14T13:39:55.288", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": " Starting Test case Execution for Clone"}
+{"TIME":"2021-04-14T13:39:56.156", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Postgress Database Connected Successfully!!)"}
+{"TIME":"2021-04-14T13:39:56.213", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering Dammos557 in Client Name"}
+{"TIME":"2021-04-14T13:39:56.213", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering CloneTest in Description"}
+{"TIME":"2021-04-14T13:39:56.213", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering 1234988 in Account no"}
+{"TIME":"2021-04-14T13:39:56.254", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Connection Closed Successfully!!)"}
+{"TIME":"2021-04-14T13:40:26.234", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "TimeoutError: Wait timed out after 10028ms
+    at C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at ManagedPromise.invokeCallback_ (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: <anonymous wait>
+    at scheduleWait (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at Driver.wait (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\protractor\built\browser.js:58:33)
+    at ProtractorBrowser.to.<computed> [as wait] (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\protractor\built\browser.js:66:16)
+    at Utility.selectDropDown (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\utility\Common_Utility.js:192:12)
+    at CloneProfile.nav_helper (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\pages\CRE_Profile\CloneProfile_Page.js:70:8)
+    at UserContext.<anonymous> (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\specs\CRE_Profile\CloneProfile_Specs.js:44:10)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  name: 'TimeoutError',
+  remoteStacktrace: ''
+}"}
+{"TIME":"2021-04-14T13:40:26.253", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": " Finished Test case Execution for Clone"}
+{"TIME":"2021-04-14T13:40:26.534", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Summary in JservicesUI Failed Negative and Positive test cases for clone functionality 1 of Module:CRE Profile subModule: Clone Profile"}
+{"TIME":"2021-04-14T13:40:27.322", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Jservice 65: Body in Jservices[object Object]"}
+{"TIME":"2021-04-14T13:40:28.350", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Postgress Database Connected Successfully!!)"}
+{"TIME":"2021-04-14T13:40:28.445", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Connection Closed Successfully!!)"}
+{"TIME":"2021-04-14T13:40:29.535", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "J Service 91undefined"}
+{"TIME":"2021-04-14T13:40:29.535", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "New Jira Defect needs to be logged for this defect"}
+{"TIME":"2021-04-14T13:40:29.538", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering undefined in Client Name"}
+{"TIME":"2021-04-14T13:40:29.538", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering CloneTest in Description"}
+{"TIME":"2021-04-14T13:40:29.538", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering 1235213 in Account no"}
+{"TIME":"2021-04-14T13:40:29.539", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Inline message [object Object]"}
+{"TIME":"2021-04-14T13:40:49.177", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Selecting  W fromProfile inClone"}
+{"TIME":"2021-04-14T13:40:53.997", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered CloneTest in Description"}
+{"TIME":"2021-04-14T13:40:57.111", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": " Finished Test case Execution for Clone"}
+{"TIME":"2021-04-14T13:41:06.606", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Summary in JservicesUI Failed Negative and Positive test cases for clone functionality 2 of Module:CRE Profile subModule: Clone Profile"}
+{"TIME":"2021-04-14T13:41:07.329", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Jservice 65: Body in Jservices[object Object]"}
+{"TIME":"2021-04-14T13:41:08.403", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Postgress Database Connected Successfully!!)"}
+{"TIME":"2021-04-14T13:41:08.497", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Connection Closed Successfully!!)"}
+{"TIME":"2021-04-14T13:41:09.607", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "J Service 91undefined"}
+{"TIME":"2021-04-14T13:41:09.607", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "New Jira Defect needs to be logged for this defect"}
+{"TIME":"2021-04-14T13:41:09.609", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering Dammos353 in Client Name"}
+{"TIME":"2021-04-14T13:41:09.609", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering CloneTest in Description"}
+{"TIME":"2021-04-14T13:41:09.609", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering undefined in Account no"}
+{"TIME":"2021-04-14T13:41:09.610", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Inline message [object Object]"}
+{"TIME":"2021-04-14T13:41:28.717", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Selecting  W fromProfile inClone"}
+{"TIME":"2021-04-14T13:41:33.370", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered Dammos353 in Client Name"}
+{"TIME":"2021-04-14T13:41:39.692", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered CloneTest in Description"}
+{"TIME":"2021-04-14T13:41:44.942", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": " Finished Test case Execution for Clone"}
+{"TIME":"2021-04-14T13:41:45.214", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Test case passed successfully"}
+{"TIME":"2021-04-14T13:41:45.939", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Postgress Database Connected Successfully!!)"}
+{"TIME":"2021-04-14T13:41:45.989", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering Dammos694 in Client Name"}
+{"TIME":"2021-04-14T13:41:45.989", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering CloneTest in Description"}
+{"TIME":"2021-04-14T13:41:45.989", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering sww235 in Account no"}
+{"TIME":"2021-04-14T13:41:45.990", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Inline message [object Object]"}
+{"TIME":"2021-04-14T13:41:46.027", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Connection Closed Successfully!!)"}
+{"TIME":"2021-04-14T13:42:05.022", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Selecting  W fromProfile inClone"}
+{"TIME":"2021-04-14T13:42:09.650", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered Dammos694 in Client Name"}
+{"TIME":"2021-04-14T13:42:12.504", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered CloneTest in Description"}
+{"TIME":"2021-04-14T13:42:15.351", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered sww235 in Account no"}
+{"TIME":"2021-04-14T13:42:24.051", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": " Finished Test case Execution for Clone"}
+{"TIME":"2021-04-14T13:42:24.335", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Test case passed successfully"}
+{"TIME":"2021-04-14T13:42:25.086", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Postgress Database Connected Successfully!!)"}
+{"TIME":"2021-04-14T13:42:25.160", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering cloneprofile in Client Name"}
+{"TIME":"2021-04-14T13:42:25.160", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering CloneTest in Description"}
+{"TIME":"2021-04-14T13:42:25.160", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entering 1235097 in Account no"}
+{"TIME":"2021-04-14T13:42:25.202", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Connection Closed Successfully!!)"}
+{"TIME":"2021-04-14T13:42:44.211", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Selecting  W fromProfile inClone"}
+{"TIME":"2021-04-14T13:42:48.877", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered cloneprofile in Client Name"}
+{"TIME":"2021-04-14T13:42:51.833", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered CloneTest in Description"}
+{"TIME":"2021-04-14T13:42:54.713", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "Entered 1235097 in Account no"}
+{"TIME":"2021-04-14T13:43:07.860", "LEVEL":"INFO", "GROUP":"protractorLog4js", "LOGMESSAGE": "NoSuchElementError: No element found using locator: By(xpath, //div[@role='dialog']/div/div/p[2])
+    at C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\protractor\built\element.js:814:27
+    at ManagedPromise.invokeCallback_ (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.<computed> [as getText] (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.<computed> [as getText] (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\node_modules\protractor\built\element.js:831:22)
+    at Utility.resultMessage (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\utility\Common_Utility.js:242:70)
+    at CloneProfile.add_Value (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\pages\CRE_Profile\CloneProfile_Page.js:61:16)
+    at UserContext.<anonymous> (C:\Users\neha.prasad\OneDrive - HCL Technologies Ltd\Desktop\IDM UI\specs\CRE_Profile\CloneProfile_Specs.js:45:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  name: 'NoSuchElementError',
+  remoteStacktrace: ''
+}"}

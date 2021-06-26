@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		IDM/CRE Automation  Logs Display
+	</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style>
+		.sample {
+			border: 2px solid #a1a1a1;
+			padding: 10px 40px;
+			background: #dddddd;
+			width: 1100px;
+			border-radius: 25px;
+		}
+
+		table {
+			border-collapse: separate;
+			width: 80%;
+			top: 5px;
+		}
+
+		th {
+			text-align: center;
+			color: black;
+			padding: 10px;
+			background-color: lightskyblue;
+		}
+
+		td {
+			text-align: left;
+			padding: 10px;
+			color: black;	
+		}
+
+		tr:nth-child(even) {
+			padding: 10px;
+			background-color: white;
+		}
+	</style>
+</head>
+
+<body style="text-align:center;" id="body">
+	<div class="sample" style="text-align:center;">
+		(Framework: Protractor)
+
+		<fieldset style="width:1050px;">
+			<h1
+				style="color: black; scrollbar-highlight-color: rgb(138, 211, 235);left: 80px;margin: 0px;width: 1000px;position: relative;	top: 20px;">
+				IDM/EPC Automation HTML Logs
+			</h1>
+
+			<p id="AUTOLayout" style="color:black; font-size: 15px; font-weight: bold; text-decoration: underline;">
+			</p>
+
+			<br><br>
+
+			<table align="center" id="table" border="3" style="text-align:center;">
+			</table>
+
+			<script>
+				$(document).ready(function () {
+					constructTable('#table');
+				});
+
+				var list = [];
+
+				$.ajax({
+					url: 'data/HTMLLog.log.json',
+					type: "get",
+					dataType: "json",
+					headers: {
+						"Access-Control-Allow-Origin": "*",
+						"Access-Control-Allow-Headers": "access-control-allow-origin, access-control-allow-headers"
+					},
+					success: function (results) {
+						list = results;
+					}
+				});
+
+
+				function constructTable(selector) {
+
+					// Getting the all column names 
+					var cols = Headers(list, selector);
+
+					// Traversing the JSON data 
+					for (var i = 0; i < list.length; i++) {
+						var row = $('<tr/>');
+						for (var colIndex = 0; colIndex < cols.length; colIndex++) {
+							var val = list[i][cols[colIndex]];
+
+							// If there is any key, which is matching 
+							// with the column name 
+							if (val == null) val = "";
+							row.append($('<td/>').html(val));
+						}
+
+						// Adding each row to the table 
+						$(selector).append(row);
+					}
+				}
+
+				function Headers(list, selector) {
+					var columns = [];
+					var header = $('<tr/>');
+
+					for (var i = 0; i < list.length; i++) {
+						var row = list[i];
+
+						for (var k in row) {
+							if ($.inArray(k, columns) == -1) {
+								columns.push(k);
+
+								// Creating the header 
+								header.append($('<th/>').html(k));
+							}
+						}
+					}
+
+					// Appending the header to the table 
+					$(selector).append(header);
+					return columns;
+				}
+			</script>
+		</fieldset>
+	</div>
+</body>
+
+</html>
